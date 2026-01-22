@@ -14,6 +14,9 @@ body {
 .menu {
   width: 200px;
   padding-right: 40px;
+  line-height: 1.4;
+}
+
 }
 
 .menu h1 {
