@@ -35,6 +35,21 @@ body {
   color: #0000ee;
 }
 
+.sublista {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sublista li {
+  margin-bottom: 8px;
+}
+
+.sublista a {
+  font-style: italic;
+  font-size: 14px;
+}
+
+
 .conteudo {
   max-width: 600px;
 }
