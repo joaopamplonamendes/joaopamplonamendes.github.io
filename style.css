@@ -17,11 +17,13 @@ body {
   line-height: 1.4;
 }
 
+
 }
 
 .menu h1 {
   font-size: 18px;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .menu ul {
@@ -117,6 +119,7 @@ body {
 .conteudo h2 {
   font-size: 20px;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .conteudo p {
