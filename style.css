@@ -49,6 +49,15 @@ body {
   font-size: 14px;
 }
 
+.submenu {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.submenu a {
+  font-size: 13px;
+  font-style: italic;
+}
 
 .conteudo {
   max-width: 600px;
