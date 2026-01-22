@@ -53,10 +53,15 @@ body {
 
 /* links das páginas-mãe */
 .menu-mae {
-  color: #0000ee;
-  text-decoration: underline;
+  color: #444;
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.menu-mae:hover {
+  text-decoration: underline;
+  color: #000;
 }
 
 .menu-footer {
