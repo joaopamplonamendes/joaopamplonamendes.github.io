@@ -39,6 +39,22 @@ body {
   color: #0000ee;
 }
 
+/* menu principal */
+.menu-principal {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+/* links das páginas-mãe */
+.menu-mae {
+  color: #0000ee;
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+
 .sublista {
   list-style: none;
   padding-left: 0;
