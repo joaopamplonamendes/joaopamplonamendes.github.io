@@ -30,6 +30,10 @@ body {
   margin-bottom: 10px;
 }
 
+.menu li.separador {
+  margin-top: 25px;
+}
+
 .menu a {
   text-decoration: underline;
   color: #0000ee;
