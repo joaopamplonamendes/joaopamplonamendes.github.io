@@ -81,3 +81,13 @@ img {
   height: auto;
   margin: 20px 0;
 }
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
