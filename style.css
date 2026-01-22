@@ -14,6 +14,13 @@ body {
   text-decoration: none;
 }
 
+.layout {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
 .container {
   display: flex;
   max-width: 1000px;
@@ -175,6 +182,7 @@ a:hover {
 
 .conteudo {
   max-width: 550px;
+  flex: 1;
 }
 
 p {
