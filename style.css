@@ -5,6 +5,15 @@ body {
   color: #111;
 }
 
+.titulo-site {
+  color: #000;
+  text-decoration: none;
+}
+
+.titulo-site:hover {
+  text-decoration: underline;
+}
+
 .container {
   display: flex;
   max-width: 1000px;
