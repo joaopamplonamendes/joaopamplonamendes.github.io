@@ -38,6 +38,7 @@ body {
   margin: 0 0 30px 0;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: bold;
 }
 
 .menu h1 a {
@@ -56,7 +57,7 @@ body {
 
 .menu-mae {
   color: #444;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .menu-mae:hover {
@@ -66,7 +67,7 @@ body {
 
 .menu-mae.active {
   color: #000;
-  text-decoration: underline;
+  text-decoration: bold;
 }
 
 /* SUB-MENU */
