@@ -139,6 +139,7 @@ body {
 
 /* MOBILE */
 @media (max-width: 768px) {
+
   body {
     padding: 20px;
   }
@@ -147,17 +148,47 @@ body {
     flex-direction: column;
   }
 
+  /* MENU NO TOPO */
   .menu {
     width: 100%;
     margin-bottom: 30px;
   }
 
+  .menu h1 {
+    margin-bottom: 20px;
+  }
+
+  .menu-principal li {
+    margin-bottom: 8px;
+  }
+
+  /* remover indentação visual excessiva */
+  .submenu {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+
+  .submenu a {
+    font-size: 12px;
+  }
+
+  /* LINKS EXTERNOS deixam de ficar "lá em baixo" */
+  .menu-externo {
+    margin-top: 40px;
+  }
+
+  /* CONTEÚDO */
   .conteudo {
     padding-left: 0;
   }
 
-  .menu-externo {
-    margin-top: 60px;
+  .conteudo h2 {
+    margin-bottom: 20px;
+  }
+
+  /* IMAGENS */
+  .galeria-coluna img {
+    width: 100%;
+    height: auto;
   }
 }
-
