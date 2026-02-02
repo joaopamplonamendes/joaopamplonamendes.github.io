@@ -137,16 +137,53 @@ body {
   margin-top: 6px;
 }
 
+/* BOTÃO MENU MOBILE */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
 
-  body {
-    padding: 20px;
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #fff;
+    padding: 30px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  .menu.aberto {
+    transform: translateX(0);
   }
 
   .layout {
     flex-direction: column;
   }
+
+  .conteudo {
+    padding-left: 0;
+  }
+}
+
 
   /* MENU NO TOPO */
   .menu {
