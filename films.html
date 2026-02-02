@@ -6,8 +6,23 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+  
+<script>
+  const botao = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
 
+  botao.addEventListener('click', () => {
+    menu.classList.toggle('aberto');
+  });
+</script>
+
+  
 <body>
+
+  <button class="menu-toggle" aria-label="Open menu">
+  ☰
+</button>
+  
 <div class="layout">
 
 <nav class="menu">
