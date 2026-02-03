@@ -1,43 +1,39 @@
-/* RESET BÁSICO */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  padding: 40px;
   font-family: "Courier New", monospace;
-  background: #E5E4E2;
+  background: #fff;
   color: #000;
 }
 
-/* LAYOUT */
+/* ===== LAYOUT ===== */
 .layout {
   display: flex;
-  align-items: flex-start;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 40px;
 }
 
-/* MENU */
+/* ===== MENU ===== */
 .menu {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
+  width: 220px;
+  flex-shrink: 0;
 }
 
-/* remover completamente bullets / reticências */
 .menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* TÍTULO DO SITE */
+/* título */
 .menu h1 {
   margin: 0 0 30px 0;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .menu h1 a {
@@ -45,34 +41,26 @@ body {
   text-decoration: none;
 }
 
-.menu h1 a:hover {
-  text-decoration: underline;
-}
-
-/* MENU PRINCIPAL */
-.menu-principal li {
-  margin-bottom: 10px;
+/* menu principal */
+.menu-principal > li {
+  margin-bottom: 12px;
 }
 
 .menu-mae {
   color: #444;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.menu-mae:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
+.menu-mae:hover,
 .menu-mae.active {
   color: #000;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
-/* SUB-MENU */
+/* submenus */
 .submenu {
   margin-top: 6px;
-  margin-left: 12px;
+  margin-left: 14px;
 }
 
 .submenu li {
@@ -90,14 +78,10 @@ body {
   text-decoration: underline;
 }
 
-/* LINKS EXTERNOS (bem em baixo) */
+/* links externos */
 .menu-externo {
-  margin-top: 160px;
+  margin-top: 120px;
   font-size: 13px;
-}
-
-.menu-externo li {
-  margin-bottom: 6px;
 }
 
 .menu-externo a {
@@ -109,7 +93,7 @@ body {
   text-decoration: underline;
 }
 
-/* CONTEÚDO */
+/* ===== CONTEÚDO ===== */
 .conteudo {
   flex: 1;
   padding-left: 40px;
@@ -121,7 +105,7 @@ body {
   font-weight: normal;
 }
 
-/* GALERIA FOTOGRÁFICA (layout A) */
+/* ===== GALERIA (fotografia / filmes) ===== */
 .galeria-coluna figure {
   margin: 0 0 40px 0;
 }
@@ -137,24 +121,27 @@ body {
   margin-top: 6px;
 }
 
-/* BOTÃO MENU MOBILE */
+/* ===== MOBILE ===== */
 .menu-toggle {
   display: none;
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  font-size: 22px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1000;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
+
+  .layout {
+    flex-direction: column;
+    padding: 20px;
+  }
 
   .menu-toggle {
     display: block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    z-index: 1000;
   }
 
   .menu {
@@ -175,57 +162,8 @@ body {
     transform: translateX(0);
   }
 
-  .layout {
-    flex-direction: column;
-  }
-
   .conteudo {
     padding-left: 0;
   }
 }
 
-
-  /* MENU NO TOPO */
-  .menu {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .menu h1 {
-    margin-bottom: 20px;
-  }
-
-  .menu-principal li {
-    margin-bottom: 8px;
-  }
-
-  /* remover indentação visual excessiva */
-  .submenu {
-    margin-left: 0;
-    margin-top: 4px;
-  }
-
-  .submenu a {
-    font-size: 12px;
-  }
-
-  /* LINKS EXTERNOS deixam de ficar "lá em baixo" */
-  .menu-externo {
-    margin-top: 40px;
-  }
-
-  /* CONTEÚDO */
-  .conteudo {
-    padding-left: 0;
-  }
-
-  .conteudo h2 {
-    margin-bottom: 20px;
-  }
-
-  /* IMAGENS */
-  .galeria-coluna img {
-    width: 100%;
-    height: auto;
-  }
-}
