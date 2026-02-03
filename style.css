@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Courier New", monospace;
-  background: #fff;
+  background: #E5E4E2;
   color: #000;
 }
 
@@ -33,7 +33,7 @@ body {
 .menu h1 {
   margin: 0 0 30px 0;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .menu h1 a {
@@ -101,7 +101,7 @@ body {
 
 .conteudo h2 {
   margin-top: 0;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
 }
 
