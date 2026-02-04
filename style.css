@@ -198,7 +198,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
-  font-size: 13px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .nav-filmes a {
