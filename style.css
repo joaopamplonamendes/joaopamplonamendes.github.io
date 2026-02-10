@@ -193,6 +193,13 @@ body {
   }
 }
 
+
+/* LINKS CONTEÚDO */
+.conteudo a.link-texto {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
 /* NAVEGAÇÃO ENTRE FILMES */
 .nav-filmes {
   display: flex;
