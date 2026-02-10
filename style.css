@@ -206,17 +206,20 @@ body {
   justify-content: space-between;
   margin-top: 80px;
   font-size: 16px;
+  font-weight: 900;
 }
 
 .nav-filmes a {
   color: #444;
   text-decoration: none;
   letter-spacing: 0.5px;
+  font-weight: 900;
 }
 
 .nav-filmes a:hover {
   color: #000;
   text-decoration: underline;
+  font-weight: 900;
 }
 
 
