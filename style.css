@@ -153,6 +153,7 @@ body {
   body {
     font-size: 14px;
   }
+
   
   .layout {
     flex-direction: column;
@@ -191,7 +192,12 @@ body {
   .conteudo {
     padding-left: 0;
   }
+
+  .nav-filmes .seta {
+    font-size: 32px;
+  }
 }
+
 
 
 /* LINKS CONTEÚDO */
