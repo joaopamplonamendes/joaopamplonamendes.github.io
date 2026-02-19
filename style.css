@@ -210,7 +210,7 @@ body {
 .nav-filmes {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .nav-filmes a {
