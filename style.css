@@ -226,7 +226,7 @@ body {
 
 /* SETAS */
 .nav-filmes .seta {
-  font-size: 26px;      /* 🔴 AQUI está o aumento real */
+  font-size: 30px;      /* 🔴 AQUI está o aumento real */
   font-weight: bold;    /* mais presença */
   line-height: 1;
 }
