@@ -79,6 +79,11 @@ body {
   text-decoration: underline;
 }
 
+.submenu a.ativo-filme {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
 .lista-filmes {
   list-style: none;
   padding: 0;
